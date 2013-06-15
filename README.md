@@ -37,8 +37,9 @@ See also: [Enable Chef Handler with LWRP](http://wiki.opscode.com/display/chef/D
 Authors
 ============
 1. [Umang Chouhan](https://github.com/uchouhan) for the campfire gem.
-2. [Brain Scott](https://github.com/bscott) for the original campfire_handler gem.
+2. [Brian Scott](https://github.com/bscott) for the original campfire_handler gem.
 3. [Greg Albrecht](https://github.com/ampledata) for chef-handler-campfire gem.
+4. [Matt Reiferson](https://github.com/mreiferson) for dependency changes and sending of reports
 
 
 Copyright

@@ -1,8 +1,4 @@
-# -*- encoding: utf-8 -*-
-$:.push File.expand_path('../lib/chef/handler', __FILE__)
-
-require 'campfire'
-
+require File.expand_path('../lib/chef/handler', __FILE__)
 
 task :build do
   system 'gem build chef-handler-campfire.gemspec'
