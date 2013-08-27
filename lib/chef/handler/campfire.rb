@@ -32,7 +32,7 @@ class Chef
           
           room.speak("#{node.name}: Chef Exception")
           exception = [run_status.formatted_exception] + Array(backtrace)
-          room.paste(exception.join('\n'))
+          room.paste(exception.join("\n"))
         else
           Chef::Log.info('delivery report to campfire')
           
@@ -41,7 +41,7 @@ class Chef
           run_status.updated_resources.each do |res|
             resources << "    #{res.resource_name}[#{res.name}]"
           end
-          room.paste(resources.join('\n'))
+          room.paste(resources.join("\n"))
         end
         
         room.speak("start #{run_status.start_time} end #{run_status.end_time} in #{run_status.elapsed_time}s")
